@@ -20,25 +20,32 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" tools:layout_editor_absoluteY="212dp"
             tools:layout_editor_absoluteX="63dp" android:id="@+id/textView2"/>
+    <Button
+            android:text="Cek"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" tools:layout_editor_absoluteY="155dp"
+            tools:layout_editor_absoluteX="297dp" android:id="@+id/button2"/>
     <EditText
             android:layout_width="282dp"
             android:layout_height="43dp"
             android:inputType="textPersonName"
             android:text="Email"
             android:ems="10"
-            tools:layout_editor_absoluteY="333dp" tools:layout_editor_absoluteX="62dp" android:id="@+id/editText4"/>
+            tools:layout_editor_absoluteY="277dp" tools:layout_editor_absoluteX="59dp" android:id="@+id/editText7"/>
+    <EditText
+            android:layout_width="282dp"
+            android:layout_height="43dp"
+            android:inputType="textPersonName"
+            android:text="Password"
+            android:ems="10"
+            tools:layout_editor_absoluteY="335dp" tools:layout_editor_absoluteX="59dp" android:id="@+id/editText4"/>
     <EditText
             android:layout_width="278dp"
             android:layout_height="45dp"
             android:inputType="textPersonName"
-            android:text="Password"
+            android:text="Re-type Password"
             android:ems="10"
-            tools:layout_editor_absoluteY="395dp" tools:layout_editor_absoluteX="63dp" android:id="@+id/editText5"/>
-    <Button
-            android:text="Cek"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" tools:layout_editor_absoluteY="155dp"
-            tools:layout_editor_absoluteX="297dp" android:id="@+id/button2"/>
+            tools:layout_editor_absoluteY="394dp" tools:layout_editor_absoluteX="59dp" android:id="@+id/editText5"/>
     <Button
             android:text="Button"
             android:layout_width="280dp"
