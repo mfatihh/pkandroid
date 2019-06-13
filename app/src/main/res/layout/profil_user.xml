@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@color/endblue">
+    </LinearLayout>
+    <ImageView
+            android:layout_width="17dp"
+            android:layout_height="21dp" app:srcCompat="@android:drawable/ic_menu_edit"
+            tools:layout_editor_absoluteY="107dp" tools:layout_editor_absoluteX="215dp" android:id="@+id/imageView8"/>
+    <ImageView
+            android:layout_width="17dp"
+            android:layout_height="21dp" app:srcCompat="@android:drawable/ic_menu_edit"
+            tools:layout_editor_absoluteY="546dp" tools:layout_editor_absoluteX="120dp" android:id="@+id/imageView6"/>
+    <ImageView
+            android:layout_width="17dp"
+            android:layout_height="21dp" app:srcCompat="@android:drawable/ic_menu_edit"
+            tools:layout_editor_absoluteY="468dp" tools:layout_editor_absoluteX="120dp" android:id="@+id/imageView7"/>
+    <ImageView
+            android:layout_width="17dp"
+            android:layout_height="21dp" app:srcCompat="@android:drawable/ic_menu_edit"
+            tools:layout_editor_absoluteY="376dp" tools:layout_editor_absoluteX="103dp" android:id="@+id/imageView2"/>
+    <ImageView
+            android:layout_width="16dp"
+            android:layout_height="21dp" app:srcCompat="@android:drawable/ic_menu_edit"
+            tools:layout_editor_absoluteY="289dp" tools:layout_editor_absoluteX="167dp" android:id="@+id/imageView5"/>
+    <ImageView
+            android:layout_width="17dp"
+            android:layout_height="21dp" app:srcCompat="@android:drawable/ic_menu_edit"
+            tools:layout_editor_absoluteY="212dp" tools:layout_editor_absoluteX="103dp" android:id="@+id/imageView4"/>
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" app:srcCompat="@mipmap/ic_launcher_round"
+            tools:layout_editor_absoluteY="28dp" tools:layout_editor_absoluteX="189dp" android:id="@+id/imageView3"/>
+    <TextView
+            android:text="Muhammad Fatih"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" tools:layout_editor_absoluteY="128dp"
+            tools:layout_editor_absoluteX="103dp" android:id="@+id/textView3"/>
+    <TextView
+            android:text="Laki laki"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" tools:layout_editor_absoluteY="128dp"
+            tools:layout_editor_absoluteX="241dp" android:id="@+id/textView4"/>
+    <TextView
+            android:text="m.fatihabdulazis@gmail.com"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" tools:layout_editor_absoluteY="161dp"
+            tools:layout_editor_absoluteX="30dp" android:id="@+id/textView5"/>
+    <TextView
+            android:text="3276020305980009"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" tools:layout_editor_absoluteY="161dp"
+            tools:layout_editor_absoluteX="241dp" android:id="@+id/textView6"/>
+    <TextView
+            android:text="No Telpon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" tools:layout_editor_absoluteY="212dp"
+            tools:layout_editor_absoluteX="30dp" android:id="@+id/textView7"/>
+    <EditText
+            android:layout_width="348dp"
+            android:layout_height="40dp"
+            android:inputType="textPersonName"
+            android:text="0858-8071-0314"
+            android:ems="10"
+            tools:layout_editor_absoluteY="229dp" tools:layout_editor_absoluteX="28dp" android:id="@+id/editText6"/>
+    <TextView
+            android:text="Tempat, Tanggal lahir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" tools:layout_editor_absoluteY="291dp"
+            tools:layout_editor_absoluteX="30dp" android:id="@+id/textView8"/>
+    <EditText
+            android:layout_width="353dp"
+            android:layout_height="40dp"
+            android:inputType="textPersonName"
+            android:text="Depok, 3 Mei 1998"
+            android:ems="10"
+            tools:layout_editor_absoluteY="315dp" tools:layout_editor_absoluteX="30dp" android:id="@+id/editText8"/>
+    <TextView
+            android:text="Pendidikan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" tools:layout_editor_absoluteY="378dp"
+            tools:layout_editor_absoluteX="28dp" android:id="@+id/textView9"/>
+    <EditText
+            android:layout_width="350dp"
+            android:layout_height="42dp"
+            android:inputType="textPersonName"
+            android:text="Sarjana Teknik Informatika"
+            android:ems="10"
+            tools:layout_editor_absoluteY="405dp" tools:layout_editor_absoluteX="31dp" android:id="@+id/editText9"/>
+    <TextView
+            android:text="Kemampuan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" tools:layout_editor_absoluteY="468dp"
+            tools:layout_editor_absoluteX="31dp" android:id="@+id/textView10"/>
+    <EditText
+            android:layout_width="348dp"
+            android:layout_height="40dp"
+            android:inputType="textPersonName"
+            android:text="Programming"
+            android:ems="10"
+            tools:layout_editor_absoluteY="497dp" tools:layout_editor_absoluteX="33dp" android:id="@+id/editText10"/>
+    <TextView
+            android:text="Pengalaman"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" tools:layout_editor_absoluteY="546dp"
+            tools:layout_editor_absoluteX="33dp" android:id="@+id/textView11"/>
+    <EditText
+            android:layout_width="351dp"
+            android:layout_height="49dp"
+            android:inputType="textPersonName"
+            android:text="Banyak"
+            android:ems="10"
+            tools:layout_editor_absoluteY="574dp" tools:layout_editor_absoluteX="27dp" android:id="@+id/editText11"/>
+    <Button
+            android:text="Save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" tools:layout_editor_absoluteY="646dp"
+            tools:layout_editor_absoluteX="161dp" android:id="@+id/button4"/>
+</android.support.constraint.ConstraintLayout>
