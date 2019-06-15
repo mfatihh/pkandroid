@@ -5,4 +5,5 @@
     <color name="greylight">#fafafa</color>
     <color name="startblue">#09c6df</color>
     <color name="endblue">#0bcce6</color>
+    <color name="colorAccent">#0bcce6</color>
 </resources>
