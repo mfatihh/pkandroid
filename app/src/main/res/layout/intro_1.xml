@@ -3,6 +3,27 @@
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/android_mobile___3">
+        android:background="@color/colorPrimary">
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="600dp"
+            android:orientation="vertical">
+
+        <ImageView
+                android:id="@+id/start_object_1"
+                android:layout_width="300dp"
+                android:layout_height="600dp"
+                android:src="@drawable/ic_people_object_1"/>
+        <TextView
+                android:layout_width = "match_parent"
+                android:layout_height="wrap_content"
+                android:text="Susah cari kerja dan gatau mau kerja dimana ?"
+                android:textSize="30dp"
+                android:textColor="@color/greylight"
+                android:layout_marginTop="470dp"
+                android:layout_marginLeft="10dp"
+                android:textAlignment="center"/>
+    </RelativeLayout>
 
 </android.support.constraint.ConstraintLayout>
