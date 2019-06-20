@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="210dp"
+                    android:background="@drawable/ic_profil">
+                <ImageView
+                        android:id="@+id/imgprofil"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/ic_launcher_round"
+                        android:layout_centerInParent="true"/>
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:layout_marginTop="5dp"
+                        android:layout_below="@id/imgprofil">
+                    <TextView
+                            android:id="@+id/user_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Muhammad Fatih"
+                            android:textColor="@color/greylight"/>
+                    <TextView
+                            android:id="@+id/jenis_kelamin"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Laki laki"
+                            android:layout_marginLeft="15dp"
+                            android:textColor="@color/greylight"/>
+                </LinearLayout>
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:layout_below="@+id/imgprofil"
+                        android:layout_marginTop="25dp">
+                    <TextView
+                            android:id="@+id/email"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="m.fatihabdulazis@gmail.com"
+                            android:textColor="@color/greylight"/>
+                    <TextView
+                            android:id="@+id/nik"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="3276020305980009"
+                            android:layout_marginLeft="15dp"
+                            android:textColor="@color/greylight"/>
+                </LinearLayout>
+            </RelativeLayout>
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                <TextView
+                        android:id="@+id/noTelpon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="No Telpon"/>
+                <ImageButton
+                        android:id="@+id/edit_noTelpon"
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:src="@drawable/ic_edit_blue_24dp"/>
+            </LinearLayout>
+            <EditText
+                    android:id="@+id/txt_noTelpon"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="085880710314"/>
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                <TextView
+                        android:id="@+id/ttl"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tempat, Tanggal lahir"/>
+                <ImageButton
+                        android:id="@+id/edit_ttl"
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:src="@drawable/ic_edit_blue_24dp"/>
+            </LinearLayout>
+            <EditText
+                    android:id="@+id/txt_ttl"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Depok, 03 Mei 1998"/>
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                <TextView
+                        android:id="@+id/pendidikan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Pendidikan"/>
+                <ImageButton
+                        android:id="@+id/edit_pendidikan"
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:src="@drawable/ic_edit_blue_24dp"/>
+            </LinearLayout>
+            <EditText
+                    android:id="@+id/txt_pendidikan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sarjana IT"/>
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                <TextView
+                        android:id="@+id/kemampuan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Kemampuan"/>
+                <ImageButton
+                        android:id="@+id/edit_kemampuan"
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:src="@drawable/ic_edit_blue_24dp"/>
+            </LinearLayout>
+            <EditText
+                    android:id="@+id/txt_kemampuan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Programmer"/>
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                <TextView
+                        android:id="@+id/pengalaman"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Pengalaman"/>
+                <ImageButton
+                        android:id="@+id/edit_pengalaman"
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:src="@drawable/ic_edit_blue_24dp"/>
+            </LinearLayout>
+            <EditText
+                    android:id="@+id/txt_pengalaman"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Banyak"/>
+
+
+            <TextView
+                    android:id="@+id/rg_txt_disabilitas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Disabilitas ?"/>
+
+            <RadioGroup
+                    android:id="@+id/rg_disabilitas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                <RadioButton
+                        android:id="@+id/rd_disabilitas_yes"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="ya"
+                        android:checked="false"/>
+                <RadioButton
+                        android:id="@+id/rd_disabilitas_no"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="tidak"
+                        android:checked="false"/>
+            </RadioGroup>
+            <Spinner
+                    android:id="@+id/spinner_disabilitas1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/disabilitas_list"
+                    android:prompt="@string/disabilitas_prompt">
+
+            </Spinner>
+
+            <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="save"/>
+
+        </LinearLayout>
+
+
+    </android.support.v4.widget.NestedScrollView>
+</android.support.constraint.ConstraintLayout>

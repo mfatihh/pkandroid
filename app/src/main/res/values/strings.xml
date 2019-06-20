@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">kotlin_test1</string>
+    <string name="title_activity_button_navigation">button_navigation</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="disabilitas_prompt">pilih tipe disabilitas</string>
+
+    <string-array name="disabilitas_list">
+        <item>Buta (Tuna Netra)</item>
+        <item>Tuli (Tuna Rungu)</item>
+        <item>Bisu (Tuna Wicara)</item>
+        <item>Cacat Fisik (Tuna Daksa)</item>
+        <item>Keterbelakangan Mental (Tuna Grahita)</item>
+        <item>Cacat Pengendarian Diri (Tuna Waras)</item>
+        <item>Cacat Kombinasi (Tuna Ganda)</item>
+    </string-array>
 </resources>
